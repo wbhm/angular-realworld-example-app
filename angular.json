@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ang2-conduit": {
+    "ang11-conduit": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -54,18 +54,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ang2-conduit:build"
+            "browserTarget": "ang11-conduit:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ang2-conduit:build:production"
+              "browserTarget": "ang11-conduit:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ang2-conduit:build"
+            "browserTarget": "ang11-conduit:build"
           }
         },
         "test": {
@@ -99,7 +99,7 @@
         }
       }
     },
-    "ang2-conduit-e2e": {
+    "ang11-conduit-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -108,7 +108,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "ang2-conduit:serve"
+            "devServerTarget": "ang11-conduit:serve"
           }
         },
         "lint": {
@@ -125,7 +125,7 @@
       }
     }
   },
-  "defaultProject": "ang2-conduit",
+  "defaultProject": "ang11-conduit",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
